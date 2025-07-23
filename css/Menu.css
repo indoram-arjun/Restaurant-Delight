@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Dark and Orange Theme */
+body {
+    background-color: #1a1a1a;
+    color: #f39c12;
+    font-family: "Funnel Sans", sans-serif;
+}
+a,
+a:hover {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #f39c12;
+}
+
+
+.nav-link:hover {
+    font-size: 20px;
+    color: #f39c12;
+}
+
+/* /home */
+#home {
+    /* font-family: "Playwrite ZA", cursive; */
+}
+
+
+.main-heading{
+    font-family: "Cookie", cursive;
+    font-size: 60px;
+    color: #f39c12;
+}
+/* Menu section here */
+#menu{
+    margin-bottom: 250px;
+    margin-top: 250px;
+}
+.card {
+    background-color: #222;
+    border: none;
+    color: #f39c12;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    border-radius: 15px 15px 0 0;
+}
+
+/* Footer */
+.footer {
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn-custom {
+    background-color: #f39c12;
+    color: black;
+    border-radius: 25px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-custom:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(243, 156, 18, 0.5);
+}

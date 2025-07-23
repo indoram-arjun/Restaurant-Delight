@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Dark and Orange Theme */
+body {
+    background-color: #1a1a1a;
+    color: #f39c12;
+    font-family: "Funnel Sans", sans-serif;
+}
+a,
+a:hover {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #f39c12;
+}
+
+
+.nav-link:hover {
+    font-size: 20px;
+    color: #f39c12;
+}
+
+ul .dropdown-menu.show{
+    background-color: #000;
+    transform: translatey(0px);
+    
+}
+ul .dropdown-menu.show:hover{
+    
+}
+
+.dropdown-item{
+    color: #fff;
+}
+
+/* /home */
+
+.main-heading{
+    font-family: "Cookie", cursive;
+    font-size: 60px;
+    color: #f39c12;
+}
+
+
+/* about section here */
+#about .my-3{
+    font-family: "Cookie", cursive;
+    font-size: 50px;
+}
+#about .Welcome{
+    font-family: "Cookie", cursive;
+}
+/* Section Styling */
+section {
+    padding: 60px 0;
+}
+
+.section-title {
+    color: #f39c12;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Cards */
+.card {
+    background-color: #222;
+    border: none;
+    color: #f39c12;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    border-radius: 15px 15px 0 0;
+}
+
+
+
+/* section 3 here */
+
+.left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.rogi:hover {
+    transform: scale(1.1);
+}
+
+.rogi1 {
+    width: 50%;
+    /* float: left; */
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.rogi2 {
+    width: 30%;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.rogi3 {
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.rogi4 {
+    width: 48%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+
+.forth-section {
+    margin-bottom: 70px;
+
+}
+
+.forth-section-top {
+    text-align: center;
+}
+
+.forth-section-top h1 {
+    color: #fea116;
+    font-size: 35px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+}
+
+.forth-section-top h2 {
+    font-size: 40px;
+    font-family: "Vazirmatn", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.forth-section-bottom {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.forth-section-bottom h2 {
+    font-size: 14px;
+    font-family: "Vazirmatn", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.forth-section-bottom h1 {
+    font-size: 17px;
+    font-family: "Vazirmatn", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.forth-section-bottom .fa {
+    color: #fea116;
+}
+
+.forth-section-bottom-child-box1 {
+    align-content: center;
+    text-align: right;
+}
+
+/* gallery section here */
+
+
+
+#gallery .father .img-fluid {
+    transition: transform 0.5s ease;
+}
+
+#gallery .father .child:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgb(255, 255, 255);
+}
+
+#gallery .father .child:hover .img-fluid {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn-custom {
+    background-color: #f39c12;
+    color: black;
+    border-radius: 25px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-custom:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(243, 156, 18, 0.5);
+}
+
+/* media Queary and screen  662px */
+
+@media screen and (max-width: 662px) {
+    body{
+        /* background-color: #fea116; */
+    }
+    .rogi1{
+        width:100% ;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+    .rogi2{
+        width:100% ;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+    .rogi3{
+        width:100% ;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+    .rogi4{
+        width:100% ;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+
+
+    /* map section here */
+
+    .embed-responsive-item{
+        width: 100%;
+    }
+
+    
+}
